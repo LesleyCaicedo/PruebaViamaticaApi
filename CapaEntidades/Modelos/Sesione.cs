@@ -5,9 +5,9 @@ namespace CapaEntidades.Modelos;
 
 public partial class Sesione
 {
-    public DateOnly? FechaIngreso { get; set; }
+    public DateTime? FechaIngreso { get; set; }
 
-    public DateOnly? FechaCierre { get; set; }
+    public DateTime? FechaCierre { get; set; }
 
     public int FkIdUsuario { get; set; }
 

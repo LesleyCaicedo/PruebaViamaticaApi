@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Desarrollo\\BackEnd\\PruebaViamaticaApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71529CBE-6E6A-4A7D-84DF-EE85291663BF}|PruebaViamaticaApi.csproj|d:\\desarrollo\\backend\\pruebaviamaticaapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71529CBE-6E6A-4A7D-84DF-EE85291663BF}|PruebaViamaticaApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FA68DB3-38AA-49BB-A26E-02E65CDF8C23}|CapaRepositorio\\CapaRepositorio.csproj|d:\\desarrollo\\backend\\pruebaviamaticaapi\\caparepositorio\\repositorios\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FA68DB3-38AA-49BB-A26E-02E65CDF8C23}|CapaRepositorio\\CapaRepositorio.csproj|solutionrelative:caparepositorio\\repositorios\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71529CBE-6E6A-4A7D-84DF-EE85291663BF}|PruebaViamaticaApi.csproj|d:\\desarrollo\\backend\\pruebaviamaticaapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71529CBE-6E6A-4A7D-84DF-EE85291663BF}|PruebaViamaticaApi.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD592A7-3DEC-4038-9B5E-D08DDC28A1E3}|CapaServicio\\CapaServicio.csproj|d:\\desarrollo\\backend\\pruebaviamaticaapi\\capaservicio\\servicios\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAD592A7-3DEC-4038-9B5E-D08DDC28A1E3}|CapaServicio\\CapaServicio.csproj|solutionrelative:capaservicio\\servicios\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,15 +42,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\Desarrollo\\BackEnd\\PruebaViamaticaApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "D:\\Desarrollo\\BackEnd\\PruebaViamaticaApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAwCYAAAAJAAAA",
+              "DocumentIndex": 1,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\BackEnd\\PruebaViamaticaApi\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "D:\\Desarrollo\\BackEnd\\PruebaViamaticaApi\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T23:45:31.848Z",
+              "WhenOpened": "2024-09-15T03:24:09.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\BackEnd\\PruebaViamaticaApi\\CapaServicio\\Servicios\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "CapaServicio\\Servicios\\UsuarioService.cs",
+              "ToolTip": "D:\\Desarrollo\\BackEnd\\PruebaViamaticaApi\\CapaServicio\\Servicios\\UsuarioService.cs",
+              "RelativeToolTip": "CapaServicio\\Servicios\\UsuarioService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T03:21:30.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\BackEnd\\PruebaViamaticaApi\\CapaRepositorio\\Repositorios\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "CapaRepositorio\\Repositorios\\UsuarioRepository.cs",
+              "ToolTip": "D:\\Desarrollo\\BackEnd\\PruebaViamaticaApi\\CapaRepositorio\\Repositorios\\UsuarioRepository.cs",
+              "RelativeToolTip": "CapaRepositorio\\Repositorios\\UsuarioRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T03:22:09.657Z",
               "EditorCaption": ""
             }
           ]
