@@ -50,8 +50,7 @@
               "RelativeToolTip": "Controllers\\UsuarioController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T03:24:09.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T03:24:09.357Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "CapaServicio\\Servicios\\UsuarioService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T03:21:30.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T03:21:30.405Z"
             },
             {
               "$type": "Document",
@@ -74,7 +72,7 @@
               "RelativeDocumentMoniker": "CapaRepositorio\\Repositorios\\UsuarioRepository.cs",
               "ToolTip": "D:\\Desarrollo\\BackEnd\\PruebaViamaticaApi\\CapaRepositorio\\Repositorios\\UsuarioRepository.cs",
               "RelativeToolTip": "CapaRepositorio\\Repositorios\\UsuarioRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T03:22:09.657Z",
               "EditorCaption": ""
