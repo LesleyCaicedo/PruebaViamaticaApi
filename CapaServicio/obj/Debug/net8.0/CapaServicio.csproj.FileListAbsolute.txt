@@ -15,3 +15,4 @@ D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\obj\Debug\net8.0\CapaServi
 D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\obj\Debug\net8.0\refint\CapaServicio.dll
 D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\obj\Debug\net8.0\CapaServicio.pdb
 D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\obj\Debug\net8.0\ref\CapaServicio.dll
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\obj\Debug\net8.0\CapaServicio.sourcelink.json

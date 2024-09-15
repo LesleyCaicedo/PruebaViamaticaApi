@@ -10,3 +10,4 @@ D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaEntidades\obj\Debug\net8.0\refint\C
 D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaEntidades\obj\Debug\net8.0\CapaEntidades.pdb
 D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaEntidades\obj\Debug\net8.0\ref\CapaEntidades.dll
 D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaEntidades\obj\Debug\net8.0\CapaEntidades.csproj.AssemblyReference.cache
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaEntidades\obj\Debug\net8.0\CapaEntidades.sourcelink.json

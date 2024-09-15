@@ -15,3 +15,4 @@ D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaRepositorio\obj\Debug\net8.0\refint
 D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaRepositorio\obj\Debug\net8.0\CapaRepositorio.pdb
 D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaRepositorio\obj\Debug\net8.0\CapaRepositorio.genruntimeconfig.cache
 D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaRepositorio\obj\Debug\net8.0\ref\CapaRepositorio.dll
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaRepositorio\obj\Debug\net8.0\CapaRepositorio.sourcelink.json

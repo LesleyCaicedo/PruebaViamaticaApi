@@ -142,3 +142,4 @@ D:\Desarrollo\BackEnd\PruebaViamaticaApi\obj\Debug\net8.0\PruebaViamaticaApi.pdb
 D:\Desarrollo\BackEnd\PruebaViamaticaApi\obj\Debug\net8.0\PruebaViamaticaApi.genruntimeconfig.cache
 D:\Desarrollo\BackEnd\PruebaViamaticaApi\obj\Debug\net8.0\ref\PruebaViamaticaApi.dll
 D:\Desarrollo\BackEnd\PruebaViamaticaApi\bin\Debug\net8.0\Riok.Mapperly.Abstractions.dll
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\obj\Debug\net8.0\PruebaViamaticaApi.sourcelink.json

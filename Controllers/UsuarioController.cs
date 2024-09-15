@@ -1,15 +1,17 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CapaServicio.Servicios;
+using Microsoft.AspNetCore.Mvc;
 
 namespace PruebaViamaticaApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class UsuarioController : ControllerBase
+    public class UsuarioController(IUsuarioService usuarioService) : ControllerBase
     {
-        [HttpGet]
-        public async Task<IActionResult> Index()
+
+        [HttpGet("[action]")]
+        public async Task<IActionResult> ObtenerInfo(int idUsuario)
         {
-            return Ok();
+            return Ok(await usuarioService.ObtenerInfo(idUsuario));
         }
     }
 }
