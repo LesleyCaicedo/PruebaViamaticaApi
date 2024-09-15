@@ -1,0 +1,12 @@
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaEntidades\bin\Debug\net8.0\CapaEntidades.deps.json
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaEntidades\bin\Debug\net8.0\CapaEntidades.dll
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaEntidades\bin\Debug\net8.0\CapaEntidades.pdb
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaEntidades\obj\Debug\net8.0\CapaEntidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaEntidades\obj\Debug\net8.0\CapaEntidades.AssemblyInfoInputs.cache
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaEntidades\obj\Debug\net8.0\CapaEntidades.AssemblyInfo.cs
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaEntidades\obj\Debug\net8.0\CapaEntidades.csproj.CoreCompileInputs.cache
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaEntidades\obj\Debug\net8.0\CapaEntidades.dll
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaEntidades\obj\Debug\net8.0\refint\CapaEntidades.dll
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaEntidades\obj\Debug\net8.0\CapaEntidades.pdb
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaEntidades\obj\Debug\net8.0\ref\CapaEntidades.dll
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaEntidades\obj\Debug\net8.0\CapaEntidades.csproj.AssemblyReference.cache

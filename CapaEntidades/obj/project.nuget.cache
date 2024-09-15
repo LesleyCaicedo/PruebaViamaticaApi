@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "b8RzoZTlVes=",
+  "success": true,
+  "projectFilePath": "D:\\Desarrollo\\BackEnd\\PruebaViamaticaApi\\CapaEntidades\\CapaEntidades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\josef\\.nuget\\packages\\riok.mapperly\\3.6.0\\riok.mapperly.3.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

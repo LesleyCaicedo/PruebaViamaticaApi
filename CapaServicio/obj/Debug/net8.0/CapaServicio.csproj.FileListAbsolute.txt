@@ -1,0 +1,17 @@
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\bin\Debug\net8.0\CapaServicio.deps.json
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\bin\Debug\net8.0\CapaServicio.dll
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\bin\Debug\net8.0\CapaServicio.pdb
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\bin\Debug\net8.0\CapaEntidades.dll
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\bin\Debug\net8.0\CapaRepositorio.dll
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\bin\Debug\net8.0\CapaEntidades.pdb
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\bin\Debug\net8.0\CapaRepositorio.pdb
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\obj\Debug\net8.0\CapaServicio.csproj.AssemblyReference.cache
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\obj\Debug\net8.0\CapaServicio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\obj\Debug\net8.0\CapaServicio.AssemblyInfoInputs.cache
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\obj\Debug\net8.0\CapaServicio.AssemblyInfo.cs
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\obj\Debug\net8.0\CapaServicio.csproj.CoreCompileInputs.cache
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\obj\Debug\net8.0\CapaServ.EB8B5DEC.Up2Date
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\obj\Debug\net8.0\CapaServicio.dll
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\obj\Debug\net8.0\refint\CapaServicio.dll
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\obj\Debug\net8.0\CapaServicio.pdb
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\CapaServicio\obj\Debug\net8.0\ref\CapaServicio.dll
