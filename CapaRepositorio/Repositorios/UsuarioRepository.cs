@@ -33,10 +33,48 @@ namespace CapaRepositorio.Repositorios
 
             return new { respuesta, usuario, sesion };
         }
+
+        public async Task<object> ObtenerIndicadores() 
+        {
+            string respuesta = string.Empty;
+            int activos = 0; int inactivos = 0; int bloqueados = 0; int totalSesionesFallidas = 0;
+            
+            try
+            {
+                List<Usuario> usuarios = await context.Usuarios.ToListAsync();
+
+                foreach (Usuario usuario in usuarios) 
+                {
+                    if (usuario.Estatus.Equals("Activo"))
+                    {
+                        activos++;
+                    }
+                    else if (usuario.Estatus.Equals("Inactivo"))
+                    {
+                        inactivos++;
+                    }
+                    else 
+                    {
+                        bloqueados++;
+                    }
+
+                    totalSesionesFallidas += usuario.IntentosTotal;
+                }
+
+                respuesta = "Indicadores consultados.";
+            }
+            catch (Exception ex) 
+            {
+                respuesta = ex.Message;
+            }
+
+            return new { respuesta, activos, inactivos, bloqueados, totalSesionesFallidas };
+        }
     }
 
     public interface IUsuarioRepository
     {
         Task<object> ObtenerInfo(int idUsuario);
+        Task<object> ObtenerIndicadores();
     }
 }

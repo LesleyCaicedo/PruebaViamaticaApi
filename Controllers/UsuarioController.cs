@@ -13,5 +13,11 @@ namespace PruebaViamaticaApi.Controllers
         {
             return Ok(await usuarioService.ObtenerInfo(idUsuario));
         }
+
+        [HttpGet("[action]")]
+        public async Task<IActionResult> ObtenerIndicadores()
+        {
+            return Ok(await usuarioService.ObtenerIndicadores());
+        }
     }
 }

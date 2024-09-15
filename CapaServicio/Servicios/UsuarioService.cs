@@ -9,10 +9,16 @@ namespace CapaServicio.Servicios
         {
             return await usuarioRepository.ObtenerInfo(idUsuario);
         }
+
+        public async Task<object> ObtenerIndicadores()
+        {
+            return await usuarioRepository.ObtenerIndicadores();
+        }
     }
 
     public interface IUsuarioService
     {
         Task<object> ObtenerInfo(int idUsuario);
+        Task<object> ObtenerIndicadores();
     }
 }
