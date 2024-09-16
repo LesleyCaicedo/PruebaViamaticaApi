@@ -19,5 +19,23 @@ namespace PruebaViamaticaApi.Controllers
         {
             return Ok(await usuarioService.ObtenerIndicadores());
         }
+
+        [HttpGet("[action]")]
+        public async Task<IActionResult> ObtenerUsuarios()
+        {
+            return Ok(await usuarioService.ObtenerUsuarios());
+        }
+
+        [HttpGet("[action]")]
+        public async Task<IActionResult> ObtenerUsuarioPorId(int idUsuario)
+        {
+            return Ok(await usuarioService.ObtenerUsuarioPorId(idUsuario));
+        }
+
+        [HttpGet("[action]")]
+        public async Task<IActionResult> CambiarEstadoUsuario(string estado, int idUsuario)
+        {
+            return Ok(await usuarioService.CambiarEstadoUsuario(estado, idUsuario));
+        }
     }
 }

@@ -93,11 +93,14 @@ namespace CapaRepositorio.Repositorios
                             IntentosTotal = 0
                         };
 
+
                         // Añadir el nuevo usuario al contexto
                         await _context.Usuarios.AddAsync(nuevoUsuario);
 
                         // Guardar los cambios en la base de datos
                         await _context.SaveChangesAsync();
+
+                        _context.Database.ExecuteSqlInterpolated($"EXEC RolUsuario {2}, {nuevoUsuario.IdUsuario}");
 
                         // Confirmar la transacción
                         await transaction.CommitAsync();
@@ -146,6 +149,7 @@ namespace CapaRepositorio.Repositorios
         {
             string respuesta = string.Empty;
             Usuario usuario = null;
+            string rol = string.Empty;
 
             try
             {
@@ -158,6 +162,11 @@ namespace CapaRepositorio.Repositorios
                     {
                         throw new Exception("Correo no existe.");
                     }
+
+                    RolUsuario rolUsuario = await _context.RolUsuarios.FirstOrDefaultAsync(a => a.FkIdUsuario == usuario.IdUsuario);
+                    Rol role = await _context.Rols.FirstAsync(a => a.IdRol == rolUsuario.FkIdRol);
+
+                    rol = role.NombreRol;
 
                     if (!usuario.Estatus.Equals("Bloqueado"))
                     {
@@ -202,6 +211,11 @@ namespace CapaRepositorio.Repositorios
                         throw new Exception("Usuario no existe.");
                     }
 
+                    RolUsuario rolUsuario = await _context.RolUsuarios.FirstOrDefaultAsync(a => a.FkIdUsuario == usuario.IdUsuario);
+                    Rol role = await _context.Rols.FirstAsync(a => a.IdRol == rolUsuario.FkIdRol);
+
+                    rol = role.NombreRol;
+
                     if (!usuario.Estatus.Equals("Bloqueado")) 
                     {
                         if (usuario.Clave.Equals(clave))
@@ -242,7 +256,14 @@ namespace CapaRepositorio.Repositorios
                 respuesta = ex.Message;
             }
 
-            return new { respuesta, usuario = new { usuario.IdUsuario, usuario.Usuario1, usuario.Correo, usuario.SesionActiva, usuario.Estatus } };
+            if (usuario != null)
+            {
+                return new { respuesta, usuario = new { usuario.IdUsuario, usuario.Usuario1, usuario.Correo, usuario.SesionActiva, usuario.Estatus, rol } };
+            }
+            else
+            {
+                return new { respuesta };
+            }
         }
 
         public async Task<string> CerrarSesion(int usuarioId)
@@ -253,7 +274,7 @@ namespace CapaRepositorio.Repositorios
             {
                 Usuario usuario = await _context.Usuarios.FirstOrDefaultAsync(x => x.IdUsuario == usuarioId);
 
-                if (usuario != null || usuario.SesionActiva != "I")
+                if (usuario != null && usuario.SesionActiva != "I")
                 {
                     _context.Database.ExecuteSqlInterpolated($"EXEC ControlSesion {"SesionCerrada"}, {usuario.IdUsuario}");
                     respuesta = "Sesion cerrada con exito.";
