@@ -1,0 +1,10 @@
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\Database\bin\Debug\Database.dacpac
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\Database\bin\Debug\Database.dll
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\Database\bin\Debug\Database.pdb
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\Database\obj\Debug\Database.sqlproj.AssemblyReference.cache
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\Database\obj\Debug\Model.xml
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\Database\obj\Debug\refactor.xml
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\Database\obj\Debug\postdeploy.sql
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\Database\obj\Debug\predeploy.sql
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\Database\obj\Debug\Database.dll
+D:\Desarrollo\BackEnd\PruebaViamaticaApi\Database\obj\Debug\Database.pdb

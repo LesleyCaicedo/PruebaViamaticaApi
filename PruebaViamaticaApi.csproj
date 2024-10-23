@@ -10,18 +10,23 @@
     <Compile Remove="CapaEntidades\**" />
     <Compile Remove="CapaRepositorio\**" />
     <Compile Remove="CapaServicio\**" />
+    <Compile Remove="Database\**" />
     <Content Remove="CapaEntidades\**" />
     <Content Remove="CapaRepositorio\**" />
     <Content Remove="CapaServicio\**" />
+    <Content Remove="Database\**" />
     <EmbeddedResource Remove="CapaEntidades\**" />
     <EmbeddedResource Remove="CapaRepositorio\**" />
     <EmbeddedResource Remove="CapaServicio\**" />
+    <EmbeddedResource Remove="Database\**" />
     <None Remove="CapaEntidades\**" />
     <None Remove="CapaRepositorio\**" />
     <None Remove="CapaServicio\**" />
+    <None Remove="Database\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

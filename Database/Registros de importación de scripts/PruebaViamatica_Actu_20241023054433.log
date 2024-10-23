@@ -1,0 +1,13 @@
+23/10/2024 0:44:33	Este registro contiene información acerca de la operación de importación del script 'PruebaViamatica_Actualizada.sql' en el proyecto 'Database' del equipo 'DEVJOUS' por el usuario 'josef.
+23/10/2024 0:44:33	Se inició la importación del archivo: C:\Users\josef\OneDrive\Escritorio\PruebaViamatica_Actualizada.sql 
+23/10/2024 0:44:33	Nombre de archivo: C:\Users\josef\OneDrive\Escritorio\PruebaViamatica_Actualizada.sql (tamaño: 15956)
+23/10/2024 0:44:33	Analizando script de importación
+23/10/2024 0:44:34	Número total de lotes en el script: 41
+23/10/2024 0:44:34	Número total de instrucciones en el script: 15
+23/10/2024 0:44:34	El script se importó correctamente en el proyecto.
+23/10/2024 0:44:34	Analizando los objetos de esquema...
+23/10/2024 0:44:34	Buscando elementos duplicados en el proyecto
+23/10/2024 0:44:34	Ha finalizado el procesamiento de los elementos duplicados
+23/10/2024 0:44:35	En el script que proporcionó para la operación de importación, no se comprendieron totalmente dos o más instrucciones. Estas instrucciones se movieron al archivo ScriptsIgnoredOnImport.sql. Revise el contenido del archivo para obtener más información.
+23/10/2024 0:44:35	Se guardó un resumen de la importación en la siguiente ubicación: D:\Desarrollo\BackEnd\PruebaViamaticaApi\Database\Registros de importación de scripts\PruebaViamatica_Actu_20241023054433.log
+23/10/2024 0:44:35	Haga clic en Finalizar para continuar...

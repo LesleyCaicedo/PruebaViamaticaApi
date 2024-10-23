@@ -59,5 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="PruebaViamaticaDB.sql" />
+    <None Include="PruebaViamatica_Actualizada.sql" />
   </ItemGroup>
 </Project>

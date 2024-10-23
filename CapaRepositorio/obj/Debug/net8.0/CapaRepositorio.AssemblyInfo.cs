@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CapaRepositorio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d845d318ecd9a321cc711e124f6c8559378fa31")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d604ff09ff6dc93a2b347cc06c1a9ce5e31453a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CapaRepositorio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CapaRepositorio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

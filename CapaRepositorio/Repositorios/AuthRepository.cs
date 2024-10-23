@@ -1,6 +1,7 @@
 ﻿using CapaEntidades.Dtos;
 using CapaEntidades.Mapeador;
 using CapaEntidades.Modelos;
+using CapaEntidades.Utils;
 using CapaRepositorio.Database;
 using Microsoft.EntityFrameworkCore;
 using System.Text.RegularExpressions;
@@ -85,7 +86,7 @@ namespace CapaRepositorio.Repositorios
                         {
                             Usuario1 = personaDto.Usuario1,
                             Correo = await GenerarCorreo(nuevaPersona.Nombre, nuevaPersona.Apellido),
-                            Clave = personaDto.Clave,
+                            Clave = EncryptHelper.ConvertToSha256(personaDto.Clave!),
                             SesionActiva = "I",
                             FkIdPersona = idPersonaGenerado, // Establecer la relación con el Id generado
                             Estatus = "Activo",
@@ -150,6 +151,7 @@ namespace CapaRepositorio.Repositorios
             string respuesta = string.Empty;
             Usuario usuario = null;
             string rol = string.Empty;
+            clave = EncryptHelper.ConvertToSha256(clave);
 
             try
             {
